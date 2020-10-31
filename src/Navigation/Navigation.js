@@ -2,6 +2,7 @@ import { Container, FormControl, Form, NavDropdown, Grid, Row, Col, Nav, Navbar,
 import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css";
+import './Navigation.css';
 
 const Page001 = () => <p>Page001</p>
 const Page002 = () => <p>Page002</p>
@@ -9,7 +10,7 @@ const Page003 = () => <p>Page003</p>
 
 function Navigation(){
 	return (
-		<div className="navigation">
+		<div className="Navigation">
 			<BrowserRouter>
 				<div className="navigation2">
 					<Navbar bg="dark" variant="dark">
