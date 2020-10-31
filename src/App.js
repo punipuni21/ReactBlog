@@ -24,9 +24,6 @@ function App() {
         </Navbar>
         <br />
       </div>
-
-
-
       <div className="content">
         ここに本文とかを書く
       </div>
