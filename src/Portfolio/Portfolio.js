@@ -5,10 +5,12 @@ import "bootstrap/dist/css/bootstrap.min.css";
 
 function Portfolio(){
 
-  
+  return(
+
+    <p>hogehogeaaaa</p>
 
 
-
-
-
+  );
 }
+
+export default Portfolio;

@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Switch, Link } from 'react-router-dom';
 import { LinkContainer } from 'react-router-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Navigation.css';
+import Portfolio from "../Portfolio/Portfolio";
 
 const Page001 = () => <p>Page001</p>
 const Page002 = () => <p>Page002</p>
@@ -19,7 +20,7 @@ function Navigation(){
 						</LinkContainer>
 
 						<Nav className="mr-auto">
-							<LinkContainer to='/page001'>
+							<LinkContainer to='/portfolio'>
 								<Nav.Link href="#home">Home</Nav.Link>
 							</LinkContainer>
 							<LinkContainer to='/page002'>
@@ -38,7 +39,7 @@ function Navigation(){
 				</div>
 				<Container>
 					<Switch>
-						<Route exact path='/page001' component={Page001} />
+						<Route exact path='/portfolio' component={Portfolio} />
 						<Route exact path='/page002' component={Page002} />
 						<Route exact path='/page003' component={Page003} />
 					</Switch>
