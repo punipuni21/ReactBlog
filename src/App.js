@@ -5,8 +5,7 @@ function App() {
 
   return (
     <div className="App">
-
-      ふょーーーー
+      hoge
     </div>
   );
 }

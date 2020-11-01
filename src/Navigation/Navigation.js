@@ -4,10 +4,10 @@ import { LinkContainer } from 'react-router-bootstrap'
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Navigation.css';
 import Portfolio from "../Portfolio/Portfolio";
+import Home from "../Home/Home";
+import Blogs from "../Blogs/Blogs"
+import Contents from "../Contents/Contents"
 
-const Page001 = () => <p>Page001</p>
-const Page002 = () => <p>Page002</p>
-const Page003 = () => <p>Page003</p>
 
 function Navigation(){
 	return (
@@ -20,13 +20,13 @@ function Navigation(){
 						</LinkContainer>
 
 						<Nav className="mr-auto">
-							<LinkContainer to='/portfolio'>
+							<LinkContainer to='/home'>
 								<Nav.Link href="#home">Home</Nav.Link>
 							</LinkContainer>
-							<LinkContainer to='/page002'>
+							<LinkContainer to='/portfolio'>
 								<Nav.Link href="#features">Portfolio</Nav.Link>
 							</LinkContainer>
-							<LinkContainer to='/page003'>
+							<LinkContainer to='/blogs'>
 								<Nav.Link href="#pricing">Blogs</Nav.Link>
 							</LinkContainer>
 						</Nav>
@@ -39,9 +39,10 @@ function Navigation(){
 				</div>
 				<Container>
 					<Switch>
+						<Route exact path='/' component={Contents} />
+						<Route exact path='/home' component={Home} />
 						<Route exact path='/portfolio' component={Portfolio} />
-						<Route exact path='/page002' component={Page002} />
-						<Route exact path='/page003' component={Page003} />
+						<Route exact path='/blogs' component={Blogs} />
 					</Switch>
 				</Container>
 			</BrowserRouter>
