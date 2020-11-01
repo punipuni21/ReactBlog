@@ -2,7 +2,7 @@ import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Portfolio.css';
 import {Container, Row, Col, Button} from "react-bootstrap";
-
+import Icon from "../images/cap.jpg";
 
 var infos = [
   {
@@ -26,7 +26,7 @@ function Portfolio(){
                 <h3>名前</h3>
                 <p>ファイル名</p>
               </div>
-              <div className="avatar"><img src="./cap.jpg" alt="" /></div>
+              <div className="avatar"><img src={Icon} alt="キャプションの画像" /></div>
               <p>
                 <Button className="btn btn-demo">View Demo</Button>
                 <Button className="btn-github">View Code</Button>
@@ -52,42 +52,5 @@ function Portfolio(){
   );
 };
 
- // Item Layout
-
-//  var Portfolio = React.createClass({
-//   getInitialState() {
-//     return {
-//       infos : infos
-//     };
-//   },
-//   render() {
-//     // var showDemo = this.showDemo;
-//     // var showCode = this.showCode;
-//     var items = this.state.infos.map(function(info) {
-//       return (
-//         <Col xs={12} md={4} key={info.filename}>
-//           <div className={"item"}>
-//             <div className={"title-header"}>
-//               <h3>タイトル</h3>
-//               <p>名前</p>
-//             </div>
-//             <div className={"avatar"}><img src={info.imgUrl} alt="" /></div>
-//             <p>
-//               <Button className={"btn btn-demo"} title={"./cap.JPG"}>View Demo</Button>
-//               <Button className={"btn-github"}>View Code</Button>
-//             </p>
-//           </div>
-//         </Col>
-//       );
-//     });
-//     return (
-//       <Container>
-//         <Row>
-//           {items}
-//         </Row>
-//       </Container>
-//     )
-//   }
-// });
 
 export default Portfolio;

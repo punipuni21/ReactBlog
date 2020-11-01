@@ -22,3 +22,8 @@
 .btn-github {
   background-color: black;
 }
+
+img {
+  max-width: 100%;
+  height: auto;
+}
