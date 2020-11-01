@@ -10,13 +10,9 @@ class Blogs extends Component{
     let latexString = "\int_{a}^{b} f(x)dx = F(b) - F(a)";
     return(
       <div>
-        <Tex texContent="\int_{a}^{b} f(x)dx = F(b) - F(a)"/>
-        <br/>
         <BlockMath math="\int_0^\infty x^2 dx"/>
         <br/>
-        <InlineTex texContent="$$\int_{a}^{b} f(x)dx = F(b) - F(a)$$"/>
-        <br/>
-        <InlineMath>\int_0^\infty x^2 dx</InlineMath>
+        <InlineMath>\displaystyle \int_0^\infty x^2 dx</InlineMath>
       </div>
     )
   }
