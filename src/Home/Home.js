@@ -1,5 +1,6 @@
 import { React, Component } from 'react';
 import {Container, Row, Col, Button} from "react-bootstrap";
+import { TwitterTimelineEmbed } from 'react-twitter-embed';
 import "bootstrap/dist/css/bootstrap.min.css";
 import './Home.css';
 import myIcon from "../images/punipuni.jpg"
@@ -12,7 +13,7 @@ class Home extends Component{
 
           <div className="profile">
             <p>ここにプロフィールとか</p>
-
+        
           </div>
         </Col>
 
@@ -30,10 +31,15 @@ class Home extends Component{
               </div>
             </div>
             <div className="brief-profile">
-              <p>横浜国立大学大学院生（M1）</p>
+              <p>横浜国立大学大学院生（M1）</p>s
               <p>競プロとかいろいろ</p>
             </div>
-          </div>
+            </div>
+            <TwitterTimelineEmbed
+              sourceType="profile"
+              screenName="puni_kyopro"
+              options={{height: 1000}}
+            />
         </Col>
 
 
