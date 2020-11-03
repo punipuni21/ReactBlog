@@ -11,7 +11,7 @@ class Blogs extends Component{
       <div>
         ここにブログを書く
       </div>
-    )
+    );
   }
 }
 
