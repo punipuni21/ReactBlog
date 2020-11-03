@@ -1,5 +1,6 @@
 .Navigation {
   text-align: center;
+  font-size: 25px;
 }
 
 .Navigation-logo {
@@ -21,4 +22,8 @@
 
 .Navigation-link {
   color: #61dafb;
+}
+
+.Navbar-brand {
+  font-size: 25px;
 }

@@ -18,14 +18,14 @@ class Navigation extends Component{
 					<div className="NavigationVar">
 						<Navbar bg="dark" variant="dark">
 							<LinkContainer to='/'>
-							<Navbar.Brand  href="#home">Contents</Navbar.Brand>
+							<Navbar.Brand className="Navbar-brand" href="#home">Contents</Navbar.Brand>
 							</LinkContainer>
 							<Nav className="mr-auto">
 								<LinkContainer to='/home'>
 									<Nav.Link href="#home">Home</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to='/portfolio'>
-									<Nav.Link href="#features">Portfolio</Nav.Link>
+									<Nav.Link href="#features" >Portfolio</Nav.Link>
 								</LinkContainer>
 								<LinkContainer to='/blogs'>
 									<Nav.Link href="#pricing">Blogs</Nav.Link>
