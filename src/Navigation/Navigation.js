@@ -15,7 +15,7 @@ class Navigation extends Component{
 		return (
 			<div className="Navigation">
 				<BrowserRouter>
-					<div className="navigation2">
+					<div className="NavigationVar">
 						<Navbar bg="dark" variant="dark">
 							<LinkContainer to='/'>
 							<Navbar.Brand  href="#home">Contents</Navbar.Brand>
