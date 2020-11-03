@@ -43,3 +43,9 @@ img {
 #social-icon .fa-twitter { background: #1da1f2; }
 #social-icon .fa-github { background: #181717; }
 /* #social-icon a:hover i .fa-twitter{ background: #1da1f2; } */
+
+
+
+.profile {
+  background-color: white;
+}
