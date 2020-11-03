@@ -10,9 +10,7 @@ class Blogs extends Component{
     let latexString = "\int_{a}^{b} f(x)dx = F(b) - F(a)";
     return(
       <div>
-        <BlockMath math="\int_0^\infty x^2 dx"/>
-        <br/>
-        <InlineMath>\displaystyle \int_0^\infty x^2 dx</InlineMath>
+        ここにブログを書く
       </div>
     )
   }
