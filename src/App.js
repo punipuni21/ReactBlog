@@ -1,13 +1,16 @@
+import { React, Component } from 'react';
 import './App.css';
 import "bootstrap/dist/css/bootstrap.min.css";
 
-function App() {
-
-  return (
-    <div className="App">
-      hoge
-    </div>
-  );
+class App extends Component{
+  
+  render(){
+    return (
+      <div className="App">
+        hoge
+      </div>
+    );
+  }
 }
 
 export default App;
