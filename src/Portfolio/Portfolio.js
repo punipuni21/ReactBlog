@@ -51,7 +51,7 @@ class Portfolio extends Component{
                   <p>お酒の写真を送るとお酒に合うおつまみを提案するアプリ（リリースまで少々お待ちください）</p>
                   <p>使用技術：React, Django</p>
                 </div>
-                <div className="avatar"><img src={otsumamirecommender} alt="アプリの画面" /></div>
+                <div className="avatar"><img src={Icon} alt="アプリの画面" /></div>
                 <p>
                   <a href="https://github.com/punipuni21/otsumami-recommender"><Button className="btn-github">View Code</Button></a>
                 </p>
