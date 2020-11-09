@@ -5,6 +5,7 @@ import {Container, Row, Col, Button} from "react-bootstrap";
 import Icon from "../images/cap.jpg";
 import woundaid from "../videos/woundaid.mp4";
 import gmailvisualizer from "../images/gmail-visualizer.jpg";
+import otsumamirecommender from "../images/otsumami-recommender.png";
 
 class Portfolio extends Component{
 
@@ -50,7 +51,7 @@ class Portfolio extends Component{
                   <p>お酒の写真を送るとお酒に合うおつまみを提案するアプリ（リリースまで少々お待ちください）</p>
                   <p>使用技術：React, Django</p>
                 </div>
-                <div className="avatar"><img src={Icon} alt="アプリの画面" /></div>
+                <div className="avatar"><img src={otsumamirecommender} alt="アプリの画面" /></div>
                 <p>
                   <a href="https://github.com/punipuni21/otsumami-recommender"><Button className="btn-github">View Code</Button></a>
                 </p>
