@@ -1,6 +1,6 @@
 {
   "name": "my-blog",
-  "homepage": " https://punipuni21.github.io/ReactBlog",
+  "homepage": "https://punipuni21.github.io/ReactBlog",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
